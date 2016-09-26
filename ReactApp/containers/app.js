@@ -37,7 +37,8 @@ import Menu from '../components/menu';
 import NavbarElements from '../components/navbar.elements';
 
 // Screens
-import Index from '../screens/soon';
+// import Index from '../screens/soon';
+import Index from '../screens/tabs';
 
 /* Component ==================================================================== */
 class AppContainer extends Component {
@@ -110,8 +111,8 @@ class AppContainer extends Component {
           statusBar={{style: 'light-content', hidden: false}}
           style={[AppStyles.navbar]}
           tintColor={AppConfig.primaryColor}
-          leftButton={<NavbarElements.LeftButton onPress={leftButton.onPress} icon={leftButton.icon} />} />
-
+        />
+        {/*leftButton={<NavbarElements.LeftButton onPress={leftButton.onPress} icon={leftButton.icon} />} */}
         <route.component navigator={navigator} route={route} {...route.passProps} />
       </View>
     );

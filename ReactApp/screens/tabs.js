@@ -41,10 +41,8 @@ class Tabs extends Component {
       navigation: {
         index: 0,
         routes: [
-          { key: '1', title: 'Tab 1'},
-          { key: '2', title: 'Tab 2'},
-          { key: '3', title: 'Tab 3'},
-          { key: '4', title: 'Tab 4'},
+          { key: '1', title: 'הלכה יומית'},
+          { key: '2', title: 'הלכות'}
         ],
       },
     };
